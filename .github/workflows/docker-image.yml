@@ -21,4 +21,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag tech1xp/awscli-kubectl:latest && push tech1xp/awscli-kubectl:latest
+      run: docker build . --file Dockerfile --tag tech1xp/awscli-kubectl:latest && docker push tech1xp/awscli-kubectl:latest
