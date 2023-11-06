@@ -1,9 +1,9 @@
 FROM alpine:latest
 
-MAINTAINER George Tsopouridis <gtsopour@gmail.com>
+MAINTAINER JinWoo Lee <jw@1xp.com>
 
 #https://github.com/sgerrand/alpine-pkg-glibc/releases
-ENV GLIBC_VERSION=2.34-r0
+ENV GLIBC_VERSION=2.35-r1
 
 #Install GNU C Library as an Alpine Linux package to run binaries linked against glibc
 #https://github.com/aws/aws-cli/issues/4685#issuecomment-615872019
