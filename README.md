@@ -7,3 +7,4 @@ https://hub.docker.com/r/veziak/awscli-kubectl
 ## Docker build
 `docker build -t veziak/awscli-kubectl . --progress=plain`
 
+
